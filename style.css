@@ -1,0 +1,35 @@
+:root{
+    --butoon-clr : #14a112;
+    --body-clr : #ebf1f0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-clr);
+
+}
+.container{
+    background-color: white;
+    max-width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+#todoInput{
+    width: 80%;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#ToDoButton{
+    padding: 10px 20px;
+    background-color: var(--butoon-clr);
+    border: none;
+    border-radius: 5px;
+}
